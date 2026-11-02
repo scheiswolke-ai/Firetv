@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="theme-color" content="#080b13"><title>Premium Home</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<div class="glow g1"></div><div class="glow g2"></div>
+<aside class="rail"><div class="brand"><i></i></div><button class="nav active" data-target="home">⌂</button><button class="nav" data-target="apps">▦</button><button class="nav" data-target="games">◈</button><div class="spacer"></div><button class="nav" id="settingsBtn">⚙</button></aside>
+<main id="home">
+<header><div><small>DEIN ENTERTAINMENT. DEIN RAUM.</small><p class="welcome" id="greeting">GUTEN TAG</p></div><div class="status"><span class="dot"></span> ONLINE <b id="clock">--:--</b><span id="date"></span></div></header>
+<section class="hero"><div class="hero-bg"></div><div class="hero-content"><span class="tag">✦ DEIN STARTBEREICH</span><small>ALLES AN EINEM ORT</small><h1>Ein neues<br><em>Fernsehgefühl.</em></h1><p>Deine Apps, deine Favoriten und deine Unterhaltung – reduziert auf das Wesentliche.</p><button class="primary focusable" id="explore">Apps entdecken <b>↗</b></button></div><span class="counter">01 <i></i> 03</span></section>
+<section class="apps" id="apps"><div class="section-title"><div><small>SCHNELLER ZUGRIFF</small><h2>Deine Apps</h2></div><span>ALLE APPS　→</span></div>
+<div class="grid">
+<button class="app focusable" data-app="YouTube"><i class="youtube">▶</i><b>YouTube</b><small>Videos & Creator</small></button>
+<button class="app focusable" data-app="Netflix"><i class="netflix">N</i><b>Netflix</b><small>Filme & Serien</small></button>
+<button class="app focusable" data-app="Prime Video"><i class="prime">prime<span>▶</span></i><b>Prime Video</b><small>Filme & Originals</small></button>
+<button class="app focusable" data-app="Disney+"><i class="disney">Disney<sup>+</sup></i><b>Disney+</b><small>Stories für dich</small></button>
+<button class="app focusable" data-app="Spotify"><i class="spotify">≋</i><b>Spotify</b><small>Musik & Podcasts</small></button>
+<button class="app focusable" data-app="Twitch"><i class="twitch">▣</i><b>Twitch</b><small>Live & Gaming</small></button>
+</div></section>
+<section class="cards"><article class="wide"><small>WEITER ENTDECKEN</small><h3>Dein nächster<br>Lieblingsmoment.</h3><span>Inspiration finden　→</span></article><article class="calm"><small>DEIN ABEND, DEIN VIBE</small><h3>Zurücklehnen.<br><em>Abschalten.</em></h3><p>Ein ruhiger Start in deinen Feierabend.</p></article></section>
+<footer>PREMIUM HOME EXPERIENCE <span>DESIGNED FOR THE BIG SCREEN</span></footer></main>
+<dialog id="settings"><button class="close focusable" id="close">×</button><small>PERSONALISIERUNG</small><h2>Dein Bereich.</h2><p>Wähle deinen Look.</p><div class="themes"><button class="theme focusable" data-theme="midnight">Midnight</button><button class="theme focusable" data-theme="violet">Violet</button><button class="theme focusable" data-theme="ocean">Ocean</button></div><p class="note">Design-Einstellungen werden lokal in dieser Version angewendet.</p></dialog>
+<div id="toast"></div><script src="app.js"></script></body></html>
